@@ -1,3 +1,7 @@
+
+## This code from W3School site 
+## Source : https://www.w3schools.com/python/python_dsa_quicksort.asp
+
 def partition(array, low, high):
   pivot = array[high]
   i = low - 1
