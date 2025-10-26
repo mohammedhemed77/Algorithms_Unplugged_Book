@@ -1,5 +1,5 @@
-Here is a clean reference implementation of the Horspool (Boyer-Moore–Horspool) substring search in Python.
-It returns the index of the first match or -1 if not found.
+# Here is a clean reference implementation of the Horspool (Boyer-Moore–Horspool) substring search in Python.
+# It returns the index of the first match or -1 if not found.
 
 def build_bad_match_table(pattern: str):
     """
