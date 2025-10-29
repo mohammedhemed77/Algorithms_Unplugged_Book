@@ -17,7 +17,6 @@ def is_free_cell(grid, row, col):
     if not in_bounds:
         return False
 
-    return grid[row][col] == 0
 
 def pledge_algorithm(grid, start_row, start_col):
     row, col = start_row, start_col
