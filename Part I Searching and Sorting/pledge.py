@@ -11,12 +11,12 @@ def turn_right(direction):
     return (direction + 1) % 4
 
 def is_free_cell(grid, row, col):
-    rows, cols = len(grid), len(grid[0])
-
-    in_bounds = (0 <= row < rows) and (0 <= col < cols)
-    if not in_bounds:
+    try:
+        return grid[row][col] == 0
+    except IndexError:
         return False
 
+    return grid[row][col] == 0
 
 def pledge_algorithm(grid, start_row, start_col):
     row, col = start_row, start_col
