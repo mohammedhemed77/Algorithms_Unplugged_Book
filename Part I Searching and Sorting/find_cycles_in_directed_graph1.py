@@ -2,7 +2,7 @@
 # [Approach 1] Using DFS - O(V + E) Time and O(V) Space
 
 
-# Helper function for DFS-based cycle detection
+#  Helper function for DFS-based cycle detection
 def isCyclicUtil(adj, u, visited, recStack):
     # If the node is already in the current recursion stack, a cycle is detected
     if recStack[u]:
